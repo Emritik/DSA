@@ -27,3 +27,45 @@ b. Fixing the tree to satisfy the properties of RB tree.(Violation(BST + RB Tree
     Case 2: Uncle is Black: 
         subcase 1: Node is a right child: Perform a left rotation on the parent.
         subcase 2: Node is a left child: perform a right rotation on the grandparent and recolor appropriately.
+
+2. Rotations: 
+    1. Left Rotation
+    2. Right Rotation
+
+    1. Left Rotation: Before Rotation-> 
+                                x
+                                 \
+                                  y
+                                 / \
+                                a   b
+
+                     After Rotation:
+                                y
+                               / \
+                              x   b
+                               \
+                                a
+    
+    2. Right Rotation: Before Rotation->
+                                x
+                               / 
+                              y   
+                             / \
+                            a   b
+                        After Rotation
+                              y
+                             / \
+                            a   x
+                               /
+                              b
+
+3. Deletion: 2 steps
+    a. BST Deletion: Remove the node using standard BST Rule.
+    b. Fixing the tree to satisfy the properties of RB tree.(Violation(BST + RB Tree))
+
+    fixing Violations During deletion: 
+    Case 1: sibling is Red: Rotate the parent and recolor the sibling and parent.
+    Case 2: Sibling is Black:
+        Sub-case 1: Sibling's children are black: Recolor the sibling and propagate the double black upward.
+        Sub-case 2: At least one of the sibling's children is red.
+                                
