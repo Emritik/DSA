@@ -24,7 +24,7 @@ b. Fixing the tree to satisfy the properties of RB tree.(Violation(BST + RB Tree
     Fixing Violation during insertion: 
 
     case 1: Uncle is Red: Recolor the parent and uncle to black and the grandparent to red.
-    Case 2: Uncle is Black: 
+    case 2: Uncle is Black: 
         subcase 1: Node is a right child: Perform a left rotation on the parent.
         subcase 2: Node is a left child: perform a right rotation on the grandparent and recolor appropriately.
 
