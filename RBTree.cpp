@@ -1,4 +1,5 @@
 RB Trees(Red Black Trees)
+
 Properties :
 1. Node color: each node is either black or red.
 2. Root color: The root of the is always black.
