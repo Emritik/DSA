@@ -8,7 +8,7 @@ Properties :
 5. Leaf property: All leaf nodes are black.
 
 Operations in RB tree-> 
-1. Traversing
+1. Traversing -> O(n)
 2. Searching -> O(logn)
 3. Insertion -> O(logn)
 4. Deletion -> O(logn)
